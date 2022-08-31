@@ -1,0 +1,19 @@
+.hichart{
+    width: 300px;
+    height: 340px;
+    position: relative;
+}
+.mobileApp{
+    left: 0.9rem;
+    top: 13px;
+}
+.saleChart{
+    right: 0.1rem;
+    top: 8px;
+}
+.mobileChart{
+    
+    left: 0.4rem;
+
+    top: 8px;
+}

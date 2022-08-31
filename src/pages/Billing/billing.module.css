@@ -1,0 +1,354 @@
+.allSection{
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 0 2rem;
+}
+.side{
+    width: 100%;
+    margin: 0 2rem 2rem 2rem;
+}
+.card{
+    background: url('./card.jpg') top;
+    color: #fff;
+    width: 350px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rbga(0,0,0,0.2);
+}
+.wifi{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.card>h3{
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+}
+.data p{
+    margin: 5rem 4.5rem 1.5rem 1rem;
+    color: grey;
+    font-size: 1.3rem;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+}
+.name h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 2rem 1rem 1rem;
+}
+.featureDetail{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.salary{
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    width: 160px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 0 2rem;
+    box-shadow: 0 10px 20px rbga(0,0,0,0.2);
+}
+.mark{
+    color: #fff;
+    font-size: 7rem;
+    background-color: rgb(0, 132, 255);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    margin-bottom: 3rem;
+}
+.salary p{
+    color: grey;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+.title{
+    font-size: 1.5rem;
+    color: rgb(4, 17, 59);
+}
+.price{
+    font-size: 1.7rem;
+    color: rgb(4, 17, 59);
+    margin-top: 1rem;
+}
+.payment{
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2rem 2rem 0 0;
+    padding: 1rem;
+}
+.btn{
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background-color: #1a1c1b;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.payHeader,.datas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 1rem 2rem 1rem;
+}
+
+.payHeader h3{
+    font-size: 1.7rem;
+    color:#1a1c1b;
+}
+
+.btnvu{
+    color: rgb(0, 132, 255);
+    border:1px solid rgb(0, 132, 255);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    cursor: pointer;
+    background-color: #fff;
+}
+.btnvu:hover{
+    color: rgb(107, 216, 243);
+
+}
+
+.datasDetail{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1.4rem;
+    margin: 0 1.5rem;
+    width:100%;
+}
+.datasDetail h3{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    color:#1a1c1b;
+}
+.logo{
+    font-size: 2.5rem;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+}
+.edit{
+    font-size: 1.3rem;
+    color:#1a1c1b;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+.invoice{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 100%;
+}
+.voiceHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.voiceHeader h3{
+    font-size: 1.5rem;
+    color: #1a1c1b;
+}
+.voiceTable{
+    text-align: left;
+}
+tbody{
+    margin-top: 3rem;
+}
+.voiceTable tr>td{
+    border-bottom: none;
+}
+.tableTitle h3{
+    font-size: 1.3rem;
+    color:#1a1c1b;
+
+}
+.tableTitle p{
+    font-size: 1.1rem;
+    color: #c4c4c4;
+}
+.link{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:#1a1c1b;
+}
+.news{
+    display: flex;
+    flex-direction: row;
+}
+.information,.transaction{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    margin: 2rem 0 2rem 0;
+}
+.information{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    margin: 2rem 2rem 2rem 0;
+}
+.transaction{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.information h3, .transaction h3{
+    font-size: 1.5rem;
+    color:#1a1c1b;
+}
+.infoHeader{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    margin-left: 8rem;
+}
+.informations{
+    background-color: rgb(243, 241, 241);
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.option p{
+    font-size: 1.3rem;
+    margin: 0 2rem;
+}
+.del{
+    color:red;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.edt{
+    color: rgb(58, 57, 57);
+    font-size: 1rem;
+    cursor: pointer;
+}
+.infoTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.property{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.address{
+    display: flex;
+    flex-direction: row;
+}
+.address h3,.address p{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.address h4{
+    font-size: 1rem;
+    color: grey;
+}
+.trDate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    color: grey;
+}
+.date p{
+    font-size: 1.3rem;
+}
+.calender{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+.netflix,.apple{
+    display: flex;
+    flex-direction: row;
+    margin:2rem 0;
+}
+.timing, .netflixDetail{
+    margin: 0 8rem 0 2rem;
+}
+.newTitle{
+    font-size: 1.5rem;   
+}
+.time{
+    font-size: 1.2rem;
+    color: grey;
+}
+.census h3{
+    margin: 3rem 0;
+    font-size: 1.2rem;
+    color: grey;
+}
+.down{
+    cursor: pointer;
+    border: 1px solid red;
+    color: red;
+    border-radius: 100%;
+    font-size: 4rem;
+    padding: 1.3rem;
+}
+.up{
+    cursor: pointer;
+    border: 1px solid green;
+    color: green;
+    border-radius: 100%;
+    font-size: 4rem;
+    padding: 1.3rem;
+}
+.exc{
+    cursor: pointer;
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 100%;
+    font-size: 4rem;
+    padding: 1.3rem;
+}
+.loss{
+    color: red;
+    font-size: 1.3rem;
+}
+.sood{
+    color: green;
+    font-size: 1.3rem;
+}
+.pen{
+    color:grey;
+    font-size: 1.3rem;
+    font-weight: 700;
+}

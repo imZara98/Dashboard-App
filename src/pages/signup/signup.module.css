@@ -1,0 +1,118 @@
+.signUp{
+    background-color: rgb(235, 228, 228);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: border-box; */
+}
+
+.header{
+    background: url('./CT.jpg') no-repeat;
+    background-size: 100%;
+    /* background-position-y: 20%; */
+    width: 100%;
+    height: 350px;
+    margin: 0 5rem;
+    top: 0;
+    color: #fff;
+    border-radius: 10px;
+}
+.headerDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.headerDetail h3{
+    font-size: 15px;
+}
+.headerLink{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+}
+.detailItem{
+    padding: 1rem 1.5rem;
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
+    margin: 1rem;
+}
+.headerForm{
+    background-color: rgb(14, 156, 238);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    height: 100px;
+    width: 230px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -15%;
+    right: 4%;
+}
+.headerForm h2{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.headerForm p{
+    font-size: 12px;
+}
+.form{
+    background-color: #fff;
+    padding: 3rem;
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    top: -10%;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputs:hover{
+    border: none;
+}
+.inputs input{
+    border: none;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(153, 151, 151) ;
+    margin: 2rem;
+    width: 100%;
+   
+}
+.input:focus{
+    outline: none;
+    border-bottom: 1px solid rgb(14, 156, 238);
+}
+.btn{
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(14, 156, 238);
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.headerBtn{
+    background-color: rgb(14, 156, 238);
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+   padding: 0 1rem;
+    font-size: 11px;
+    font-weight: 700;
+}

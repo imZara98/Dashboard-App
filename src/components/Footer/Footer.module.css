@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    color: grey;
+    margin-top: 2rem;
+   
+}
+
+.about a{
+    text-decoration: none;
+    margin-right: 2rem;
+    color: grey;
+    cursor: pointer;
+}

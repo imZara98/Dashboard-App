@@ -1,0 +1,129 @@
+.all{
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    scroll-behavior: auto;
+}
+
+.component{
+    display: flex;
+    flex-direction: column;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: grey;
+    height: 480px;
+    width: 720px;
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.projectDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.projectDetail h3{
+    color: rgb(51, 51, 51);
+    font-size: 1.8rem;
+    margin-bottom: 0.6rem;
+}
+.projectDetail p{
+    font-size: 1.4rem;
+}
+
+.detailSecondary{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.detailIcon{
+    font-size: 1.8rem;
+    color: blue;
+    font-weight: 700;
+}
+
+.sectionThird{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.order{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    height: 480px;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.allSections{
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.allSections::-webkit-scrollbar {
+    display: none;
+  }
+
+.setting{
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    bottom: 8%;
+}
+.settingIcon{
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 1.5rem;
+    color: rgb(32, 41, 71);
+    width: 50px;
+    height: 50px;
+    position: sticky;
+    left: 100%;
+    box-shadow: 10px 10px 30px rgba(141, 137, 137, 0.6); 
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 77%;
+    left: 240px;
+
+}
+.chart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (min-width:1024px) {
+    .mainMenu{
+        display: inline-block;
+    }
+    .component{
+        flex-direction: row;
+    }
+    .chart{
+        flex-direction: row;
+    }
+    .information{
+        flex-direction: row;
+        position: absolute;
+        top: 77%;
+        left: 18%;
+    }
+}

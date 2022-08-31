@@ -1,0 +1,165 @@
+.allSection{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+.profile{
+   width: 100%;
+   margin-right: 2rem;
+   display: flex;
+   flex-direction: column;
+
+}
+.mountain{
+    border-radius: 10px;
+    height: 300px;
+    width: 1030px;
+    margin-left: 2rem;
+    object-fit: cover;
+
+}
+.background{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.userImg{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    margin: 2rem;
+    object-fit: cover;
+}
+.user{
+    background-color: #fff;
+    margin: 2rem 3rem 0 4rem;
+    border-radius: 10px;
+    position: relative;
+    top: -90px;
+    box-shadow: 0 10px 20px rbga(0,0,0,1);
+}
+.people{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 2rem;
+    border: 1px solid #fff;
+    object-fit: cover;
+}
+.userInformation{
+    display: flex;
+    flex-direction: row;
+}
+.userName{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 2rem;
+}
+.userName h3{
+    font-size: 2rem;
+}
+.userName h4{
+    font-size: 1.4rem;
+    color: grey;
+    font-weight: 400;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    margin: 4rem 2rem 4rem 35rem;
+    border-style: inset;
+    color: rgb(99, 98, 98);
+    border-radius: 10px;
+    background-color: #eeebeb;
+    padding: 0.5rem;
+}
+.option p{
+    margin: 0 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.items div{
+    margin: 0.5rem 0 0 1rem;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+}
+.item h4{
+    margin-left: 0.5rem;
+}
+.profileItem>p,h4{
+    color: rgb(182, 179, 179);
+}
+.profileItem>p{
+    margin-left: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 14rem;
+}
+.profileDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profileDetail>h3, .platform h3, .converHeader h3{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.profileItem{
+    border-right: 1px solid #dfdcdc;
+    padding-right: 2rem;
+}
+.converHeader h3{
+    margin-left: 4rem;
+}
+.pen{
+    font-size: 1.2rem;
+    color:rgb(99, 98, 98);
+}
+.item h3{
+    font-size: 1.3rem;
+}
+.item h4{
+    font-size: 1.2rem;
+    
+}
+h3{
+    color: rgb(99, 98, 98);
+}
+.link{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(0, 132, 255);
+    font-size: 1.2rem;
+    margin-left: 8rem;
+    margin-top: 2.5rem;
+}
+.person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.opinion{
+    margin-top: 2rem;
+}
+.opinion h3{
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+}
+.opinion h4{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.footer{
+    position: relative;
+    bottom: 40px;
+    margin: 0 2rem;
+}
