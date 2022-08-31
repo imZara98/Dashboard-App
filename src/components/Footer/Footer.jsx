@@ -1,7 +1,6 @@
 import style from './Footer.module.css';
 import {FaHeart} from "react-icons/fa";
 
-
 const Footer = () => {
     return ( 
         <div className={style.footer}>

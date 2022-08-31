@@ -1,3 +1,4 @@
+// custom hook, it just for example that i can create custom hooks for tasks
 import { useState } from "react";
 
 const useInput = (type, initialValue) =>{
